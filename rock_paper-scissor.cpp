@@ -32,7 +32,7 @@ int main()
         {
             cout<<"Match Draw."<<endl;
         }
-        else if(player_choice == 1 && computer_choice == 2 || player_choice== 2 && computer_choice == 3 || player_choice== 3 && computer_choice == 1 )
+        else if(player_choice == 1 && computer_choice == 2 || player_choice == 2 && computer_choice == 3 || player_choice == 3 && computer_choice == 1 )
         {
             cout<<"Computer wins."<<endl;
             computer_score++;
